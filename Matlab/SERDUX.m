@@ -9,7 +9,7 @@ close all;
 %%Initials Conditions 
 x0 = [60; % Susceptible (S)
       9;   % Exposed (E)
-      0;  % Recover (R)
+      0;  % Resistant (R)
       2;   % Degraded (D)
       0;   % Unavailable(U)
       0];   % Destroyed (X)
@@ -75,7 +75,7 @@ end
 xlabel('Time units', 'FontSize', 12)
 ylabel('Number of individuals', 'FontSize', 12)
 % Add legend
-legend('Susceptible (S)', 'Exposed (E)', 'Recovered (R)', 'Degraded (D)', 'Unavailable (U)', 'Destroyed(X)','NumColumns',3,'fontsize',15,'Location', 'southoutside')
+legend('Susceptible (S)', 'Exposed (E)', 'Resistant (R)', 'Degraded (D)', 'Unavailable (U)', 'Destroyed(X)','NumColumns',3,'fontsize',15,'Location', 'southoutside')
 % Set custom colors
 colororder(newcolors);
 % Set figure properties for printing
