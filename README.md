@@ -7,3 +7,4 @@ They are organized as follows:
 - Matlab implementation of SERDUX-MARCIM, including the functions that numerically solve differential equations.
 - Matlab executables that generate the GUIs allow a more pleasant visualization of the corresponding models and the desired parameters to be entered.
 - NetLogo implementation of SERDUX-MARCIM, which has the simulation environment to be used by the experimenters.
+[![](https://markdown-videos.deta.dev/youtube/uLvfzweGNnw)](https://youtu.be/uLvfzweGNnw)
