@@ -8,4 +8,4 @@ They are organized as follows:
 - Matlab executables that generate the GUIs allow a more pleasant visualization of the corresponding models and the desired parameters to be entered.
 - NetLogo implementation of SERDUX-MARCIM, which has the simulation environment to be used by the experimenters.
 
-[![Alt text](https://img.youtube.com/vi/uLvfzweGNnw/0.jpg)](https://www.youtube.com/watch?v=uLvfzweGNnw)
+[![Alt text](https://img.youtube.com/vi/eGbOmuAtFnU/0.jpg)](https://www.youtube.com/watch?v=eGbOmuAtFnU)
