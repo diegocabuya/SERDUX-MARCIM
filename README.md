@@ -1,9 +1,3 @@
-<!--
-  README para diegocabuya/SERDUX-MARCIM
-  Los comentarios <!-- ... --> NO se ven en GitHub: son notas para ti.
-  Revisa y ajusta lo que esté marcado con  >> AJUSTAR <<
--->
-
 <div align="center">
 
 <!-- >> AJUSTAR <<: cuando tengas un logo/banner, súbelo a assets/logo.png y descomenta:
