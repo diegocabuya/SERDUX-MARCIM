@@ -35,7 +35,6 @@
 - [How to cite](#how-to-cite)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
@@ -120,13 +119,6 @@ Preferred citation:
 ## Contributing
 
 Contributions, issues and suggestions are welcome. Please open an [issue](https://github.com/diegocabuya/SERDUX-MARCIM/issues) to discuss changes before submitting a pull request.
-
-## License
-
-<!-- >> IMPORTANTE <<: la licencia es una decisión legal. Ver notas en el mensaje: por ser
-     investigación afiliada a la Escuela Naval / defensa, confirma la política institucional
-     antes de fijar una licencia abierta. La plantilla incluida es MIT como punto de partida. -->
-Distributed under the terms of the [MIT License](LICENSE) unless stated otherwise.
 
 ## Acknowledgements
 
