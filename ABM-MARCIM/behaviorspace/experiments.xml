@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BehaviorSpace experiment definitions for the verification runs of ABM-MARCIM (NetLogo 6.4.0).
+     Reconstructed on 2026-10-19 from the headers of the exported result tables esc1.csv and esc2_nodos10.csv:
+     every parameter value, metric, repetition count and time limit below is read from those files.
+     The experiments were originally defined in the BehaviorSpace GUI on a working copy of the deposited model
+     file and were not saved separately. Paste the <experiment> elements into the BehaviorSpace section of
+     the .nlogo file, or load this file with NetLogo's BehaviorSpace "Import" function. -->
+<experiments>
+  <experiment name="esc1" repetitions="30" sequentialRunOrder="true" runMetricsEveryStep="true">
+    <setup>setup</setup>
+    <go>go</go>
+    <timeLimit steps="35"/>
+    <metric>count turtles with [serdux-state = "S"]</metric>
+    <metric>count turtles with [serdux-state = "E"]</metric>
+    <metric>count turtles with [serdux-state = "R"]</metric>
+    <metric>count turtles with [serdux-state = "D"]</metric>
+    <metric>count turtles with [serdux-state = "U"]</metric>
+    <metric>count turtles with [serdux-state = "X"]</metric>
+    <metric>solcontrol</metric>
+    <metric>L</metric>
+    <metric>R</metric>
+    <metric>I</metric>
+    <metric>map [ ag -&gt; [serdux-state] of ag ] sort turtles</metric>
+    <enumeratedValueSet variable="propagation-rate-PRO0">
+      <value value="0.8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="time-damping-loss-resistance-LOR-m">
+      <value value="4.375"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="degraded-initial">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="unavailable-initial">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-cyberintelligence-capability-TCI">
+      <value value="0.5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="unavailability-other-causes-rate-UOC">
+      <value value="0.001"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="vulnerability-factors-VUF">
+      <value value="0.7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-detective-controls-CDV">
+      <value value="0.5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-support-sustainability-capability-TSS">
+      <value value="0.5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="exposed-initial">
+      <value value="9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="cyber-attack-duration-ADU">
+      <value value="0.6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="susceptible-initial">
+      <value value="60"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="num-of-steps">
+      <value value="120"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-compensatory-controls-CCM">
+      <value value="0.5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="attacker-factors-ATF">
+      <value value="0.6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="cyber-attack-degree-ADE">
+      <value value="0.6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-corrective-controls-CCR">
+      <value value="0.5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="number-of-nodes-connections">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="stregth-damping-loss-resistance-LOR-a">
+      <value value="0.2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-preventive-controls-CPR">
+      <value value="0.5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="parameter-for-time-in-cyber-attack-D-tf">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-cyberdefense-capability-TCD">
+      <value value="0.5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-deterrent-controls-CDE">
+      <value value="0.5"/>
+    </enumeratedValueSet>
+  </experiment>
+  <experiment name="esc2_nodos10" repetitions="10" sequentialRunOrder="true" runMetricsEveryStep="true">
+    <setup>setup</setup>
+    <go>go</go>
+    <timeLimit steps="120"/>
+    <metric>count turtles with [serdux-state = "S"]</metric>
+    <metric>count turtles with [serdux-state = "E"]</metric>
+    <metric>count turtles with [serdux-state = "R"]</metric>
+    <metric>count turtles with [serdux-state = "D"]</metric>
+    <metric>count turtles with [serdux-state = "U"]</metric>
+    <metric>count turtles with [serdux-state = "X"]</metric>
+    <metric>solcontrol</metric>
+    <metric>L</metric>
+    <metric>R</metric>
+    <metric>I</metric>
+    <metric>map [ ag -&gt; [serdux-state] of ag ] sort turtles</metric>
+    <enumeratedValueSet variable="propagation-rate-PRO0">
+      <value value="0.75"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="time-damping-loss-resistance-LOR-m">
+      <value value="120"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="degraded-initial">
+      <value value="31"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="unavailable-initial">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-cyberintelligence-capability-TCI">
+      <value value="0.25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="unavailability-other-causes-rate-UOC">
+      <value value="0.0025"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="vulnerability-factors-VUF">
+      <value value="0.8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-detective-controls-CDV">
+      <value value="0.25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-support-sustainability-capability-TSS">
+      <value value="0.25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="exposed-initial">
+      <value value="124"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="cyber-attack-duration-ADU">
+      <value value="0.75"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="susceptible-initial">
+      <value value="6045"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="num-of-steps">
+      <value value="120"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-compensatory-controls-CCM">
+      <value value="0.25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="attacker-factors-ATF">
+      <value value="0.75"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="cyber-attack-degree-ADE">
+      <value value="0.75"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-corrective-controls-CCR">
+      <value value="0.1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="number-of-nodes-connections">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="stregth-damping-loss-resistance-LOR-a">
+      <value value="0.1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-preventive-controls-CPR">
+      <value value="0.1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="parameter-for-time-in-cyber-attack-D-tf">
+      <value value="240"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-cyberdefense-capability-TCD">
+      <value value="0.1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="target-deterrent-controls-CDE">
+      <value value="0.25"/>
+    </enumeratedValueSet>
+  </experiment>
+</experiments>

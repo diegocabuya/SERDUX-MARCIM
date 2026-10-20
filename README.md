@@ -109,11 +109,15 @@ Preferred citation:
 
 > Cabuya-Padilla, D., Díaz-López, D., Martínez-Páez, J., Hernandez, L., & Castañeda-Marroquín, C. (2025). *SERDUX-MARCIM: Maritime Cyberattack Simulation Using Dynamic Modeling, Compartmental Models in Epidemiology and Agent-Based Modeling.* International Journal of Information Security. https://doi.org/10.1007/s10207-025-00985-6
 
+## ABM-MARCIM verification data
+
+[`ABM-MARCIM/`](ABM-MARCIM/) holds the BehaviorSpace result tables (scenario 1: N = 71, 30 replications; scenario 2: N = 6200, 10 replications), the experiment definitions and the script that recomputes every figure of the verification study of the agent layer reported in the ABM-MARCIM manuscript. See its [README](ABM-MARCIM/README.md).
+
 ## Roadmap
 
 - [ ] Extend the model toward mathematical and operational representations.
 - [ ] Add expert-based and experimental validation of applied scenarios.
-- [ ] Publish reproducible scenario datasets.
+- [x] Publish reproducible scenario datasets — see [`ABM-MARCIM/`](ABM-MARCIM/).
 <!-- >> AJUSTAR <<: pon los siguientes pasos reales del proyecto. -->
 
 ## Contributing
