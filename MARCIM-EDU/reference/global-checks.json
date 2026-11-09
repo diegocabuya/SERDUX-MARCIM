@@ -1,0 +1,93 @@
+{
+  "version": "1.2",
+  "global_screen_runs": 3840,
+  "base_points": 240,
+  "runs_not_conserving_350_nodes": 3,
+  "levers": [
+    {
+      "lever": "TCD",
+      "points": 240,
+      "median_effect_pp": 0.0,
+      "max_abs_effect_pp": 0.5714285714285765,
+      "share_abs_below_1pp": 1.0,
+      "share_negative_rounds_2_3": 0.13333333333333333,
+      "share_negative_rounds_4_5": 0.075
+    },
+    {
+      "lever": "TCI",
+      "points": 240,
+      "median_effect_pp": 0.0,
+      "max_abs_effect_pp": 0.8571428571428612,
+      "share_abs_below_1pp": 1.0,
+      "share_negative_rounds_2_3": 0.15833333333333333,
+      "share_negative_rounds_4_5": 0.06666666666666667
+    },
+    {
+      "lever": "TSS",
+      "points": 240,
+      "median_effect_pp": 0.0,
+      "max_abs_effect_pp": 0.5714285714285765,
+      "share_abs_below_1pp": 1.0,
+      "share_negative_rounds_2_3": 0.15,
+      "share_negative_rounds_4_5": 0.10833333333333334
+    },
+    {
+      "lever": "CCM",
+      "points": 240,
+      "median_effect_pp": 0.0,
+      "max_abs_effect_pp": 21.14285714285714,
+      "share_abs_below_1pp": 0.7833333333333333,
+      "share_negative_rounds_2_3": 0.2916666666666667,
+      "share_negative_rounds_4_5": 0.225
+    },
+    {
+      "lever": "CDE",
+      "points": 240,
+      "median_effect_pp": 0.0,
+      "max_abs_effect_pp": 20.571428571428577,
+      "share_abs_below_1pp": 0.7708333333333334,
+      "share_negative_rounds_2_3": 0.275,
+      "share_negative_rounds_4_5": 0.21666666666666667
+    },
+    {
+      "lever": "CPR",
+      "points": 240,
+      "median_effect_pp": 0.2857142857142918,
+      "max_abs_effect_pp": 47.42857142857142,
+      "share_abs_below_1pp": 0.2125,
+      "share_negative_rounds_2_3": 0.0,
+      "share_negative_rounds_4_5": 0.725
+    },
+    {
+      "lever": "CCR",
+      "points": 240,
+      "median_effect_pp": 12.57142857142857,
+      "max_abs_effect_pp": 37.14285714285714,
+      "share_abs_below_1pp": 0.03333333333333333,
+      "share_negative_rounds_2_3": 0.0,
+      "share_negative_rounds_4_5": 0.6
+    },
+    {
+      "lever": "CDV",
+      "points": 240,
+      "median_effect_pp": 0.2857142857142918,
+      "max_abs_effect_pp": 51.142857142857146,
+      "share_abs_below_1pp": 0.19583333333333333,
+      "share_negative_rounds_2_3": 0.05,
+      "share_negative_rounds_4_5": 0.725
+    }
+  ],
+  "contrast": {
+    "mean_difference_points": 8.5,
+    "allocations": 495,
+    "allocations_at_least_observed": 1,
+    "exact_permutation_p_one_sided": 0.00202020202020202,
+    "pooled_sd_points": 3.927467377331096,
+    "cohen_d": 2.1642445839425815,
+    "hedges_g": 1.9977642313316137,
+    "hedges_g_ci95_low": 0.5557657711774535,
+    "hedges_g_ci95_high": 3.439762691485774,
+    "interpretation": "Descriptive separation within these 12 records. Allocation was not random and the four players shared one session; not a treatment-effect estimate or its precision."
+  },
+  "interpretation": "Radial full-range effects at Latin-hypercube base points in 12 backgrounds (3 games x rounds 2-5); screening, not Sobol indices, not realism."
+}

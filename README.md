@@ -65,6 +65,7 @@ The model is part of **MARCIM** (*Marco de Referencia para el Modelamiento y Sim
 | [`MARCIM Project/`](MARCIM%20Project) | Conceptual and reference-framework materials of the MARCIM project. <!-- >> AJUSTAR descripción << --> |
 | [`MARCIM-WG/`](MARCIM-WG) | Working-group / wargaming resources and supporting material. <!-- >> AJUSTAR descripción << --> |
 | [`Hybrid-TTX-MARCIM/`](Hybrid-TTX-MARCIM) | Hybrid Tabletop Exercise: scenario, datasets and implementation used in the maritime-sector TTX. |
+| [`MARCIM-EDU/`](MARCIM-EDU) | Supplementary material of the MARCIM-EDU design framework (IEEE Access, Access-2026-42686): de-identified assessment records, instrument, decision map, configurations and executable reproduction code. |
 
 ## Requirements
 

@@ -1,0 +1,36 @@
+parametro,carta,nombre_carta,fichas
+capacidades-ciberdefensa-obj-TCD,2,Detección y Reporte (Interno),1
+capacidades-ciberdefensa-obj-TCD,3,Evaluación y Análisis del Incidente,1
+capacidades-ciberdefensa-obj-TCD,5,Cooperación,1
+capacidades-ciberdefensa-obj-TCD,6,Plan de Recuperación de Desastres,1
+capacidades-ciberdefensa-obj-TCD,12,Mejora,1
+capacidades-soporte-sostenibilidad-obj-TSS,2,Detección y Reporte (Interno),1
+capacidades-soporte-sostenibilidad-obj-TSS,4,Declaración de la Crisis,1
+capacidades-soporte-sostenibilidad-obj-TSS,5,Cooperación,1
+capacidades-soporte-sostenibilidad-obj-TSS,10,Reporte del Incidente,1
+capacidades-soporte-sostenibilidad-obj-TSS,12,Mejora,1
+capacidades-ciberinteligencia-obj-TCI,2,Detección y Reporte (Interno),1
+capacidades-ciberinteligencia-obj-TCI,3,Evaluación y Análisis del Incidente,1
+capacidades-ciberinteligencia-obj-TCI,4,Declaración de la Crisis,1
+capacidades-ciberinteligencia-obj-TCI,5,Cooperación,1
+capacidades-ciberinteligencia-obj-TCI,11,Revisión,1
+controles-compensatorios-obj-CCM,1,Planeación y preparación,1
+controles-compensatorios-obj-CCM,7,Plan de Continuidad del Negocio,1
+controles-disuasorios-obj-CDE,1,Planeación y preparación,1
+controles-disuasorios-obj-CDE,5,Cooperación,1
+controles-detectivos-obj-CDV,1,Planeación y preparación,1
+controles-detectivos-obj-CDV,6,Plan de Recuperación de Desastres,1
+controles-detectivos-obj-CDV,12,Mejora,1
+controles-preventivos-obj-CPR,1,Planeación y preparación,1
+controles-preventivos-obj-CPR,7,Plan de Continuidad del Negocio,1
+controles-preventivos-obj-CPR,12,Mejora,1
+controles-correctivos-obj-CCR,1,Planeación y preparación,1
+controles-correctivos-obj-CCR,6,Plan de Recuperación de Desastres,1
+controles-correctivos-obj-CCR,11,Revisión,1
+factores-atacante-ATF,8,Ciberataque,-2
+factores-atacante-ATF,9,Pago del Ransomware,-3
+vulnerability-factors-VUF,9,Pago del Ransomware,-3
+grado-ciberataque-ADE,8,Ciberataque,-2
+grado-ciberataque-ADE,9,Pago del Ransomware,-3
+duracion-ciberataque-ADU,8,Ciberataque,-1
+duracion-ciberataque-ADU,9,Pago del Ransomware,-3
