@@ -1,0 +1,31 @@
+{
+  "version": "1.3",
+  "game": "optimista",
+  "surplus_round": 3,
+  "surplus_tokens": 7,
+  "issued_in_round": {
+    "TCD": 2,
+    "TCI": 0,
+    "TSS": 1,
+    "CCM": 3,
+    "CDE": 3,
+    "CPR": 2,
+    "CCR": 2,
+    "CDV": 2
+  },
+  "matched_variants": 422,
+  "recorded_replay_active_r5": 80.85714285714286,
+  "recorded_replay_destroyed_r5": 65,
+  "neutral_replay_active_r5": 50.857142857142854,
+  "neutral_replay_destroyed_r5": 171,
+  "matched_active_r5_min": 47.142857142857146,
+  "matched_active_r5_median": 61.714285714285715,
+  "matched_active_r5_max": 80.85714285714286,
+  "matched_destroyed_r5_min": 65,
+  "matched_destroyed_r5_median": 133.0,
+  "matched_destroyed_r5_max": 184,
+  "share_above_neutral_replay": 0.9265402843601895,
+  "share_at_or_above_recorded_replay": 0.02132701421800948,
+  "runs_not_conserving_350_nodes": 0,
+  "interpretation": "Outcomes of the optimistic profile with the ordinary 40-token budget, over every way of removing the seven surplus round-3 tokens. Conditional model responses, not realism."
+}

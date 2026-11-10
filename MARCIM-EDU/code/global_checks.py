@@ -3,8 +3,8 @@
 1. Global screen of the eight player levers: in every reported game background
    and in rounds 2-5 (12 backgrounds), 20 base points are drawn by a discrete
    Latin hypercube over the eight levers (10 token levels); at each point, each
-   lever is moved from 0.1 to 1.0 with the others held (radial one-at-a-time
-   design). The effect on active services at round close is summarized per lever.
+   lever is moved from 0.1 to 1.0 with the others held (one-at-a-time screening
+   replicated across base points). The effect on active services at round close is summarized per lever.
    Screening, not variance-based (Sobol) indices; it says nothing about realism
    or pedagogical validity. Runs in which the transcribed integer reconciliation
    does not conserve the 350 nodes are counted and retained, not discarded.
@@ -111,7 +111,7 @@ def run(out):
     res = {'version': '1.2', 'global_screen_runs': 2 * len(rows), 'base_points': len(rows) // 8,
            'runs_not_conserving_350_nodes': int(lost),
            'levers': summary, 'contrast': contrast(),
-           'interpretation': 'Radial full-range effects at Latin-hypercube base points in 12 backgrounds (3 games x rounds 2-5); screening, not Sobol indices, not realism.'}
+           'interpretation': 'Full-range one-at-a-time effects at Latin-hypercube base points in 12 backgrounds (3 games x rounds 2-5); screening, not Sobol indices, not realism.'}
     (out / 'global-checks.json').write_text(json.dumps(res, indent=2))
     ref = e.BASE / 'reference/global-checks.json'
     if ref.exists() and ref.resolve() != (out / 'global-checks.json').resolve():

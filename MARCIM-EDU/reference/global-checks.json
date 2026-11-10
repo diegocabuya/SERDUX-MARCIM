@@ -89,5 +89,5 @@
     "hedges_g_ci95_high": 3.439762691485774,
     "interpretation": "Descriptive separation within these 12 records. Allocation was not random and the four players shared one session; not a treatment-effect estimate or its precision."
   },
-  "interpretation": "Radial full-range effects at Latin-hypercube base points in 12 backgrounds (3 games x rounds 2-5); screening, not Sobol indices, not realism."
+  "interpretation": "Full-range one-at-a-time effects at Latin-hypercube base points in 12 backgrounds (3 games x rounds 2-5); screening, not Sobol indices, not realism."
 }
